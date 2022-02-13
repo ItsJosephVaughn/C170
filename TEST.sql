@@ -1,1 +1,1 @@
-TEST
+CREATE TABLE Bagel
