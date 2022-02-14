@@ -1,7 +1,8 @@
-CREATE TABLE Order (
-  OrderID     SMALLINT UNSIGNED AUTO_INCREMENT,
-  Name          VARCHAR(50),
-  Description   VARCHAR(255),
-  Price         DECIMAL(2,2),
+CREATE TABLE Order 
+(
+  OrderID INT NOT NULL UNSIGNED AUTO_INCREMENT,
+  OrderDate DATE NOT NULL,
+  DeliveryFee DECIMAL(2.2),
+  SpecialNotes VARCHAR(255),
   PRIMARY KEY (ID)
 );
